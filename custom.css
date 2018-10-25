@@ -1,0 +1,77 @@
+/* Instructions for modifying css at CARLConnect-Discovery-CSS-Customizations.pdf */
+/* [ls2pac@NASHls2pac]:/carl/live/ls2pac/resources/css_overrides> cat custom.css */
+
+/* disable links from search results pointing to authors */
+a.authorLink {
+	color:black !important;
+	pointer-events:none !important;
+}
+
+/* disable links from search results pointing to bibliographic records */
+a.fullDetails {
+	color:black !important;
+	pointer-events:none !important;
+}
+
+/* disappear bibliographic record navigation */
+#detailsPageNavigation {
+	display:none !important;
+}
+
+/* disappear search form */
+/* #header_searchForm { */
+.searchBar, .searchButton {
+	display:none !important;
+	pointer-events:none !important;
+}
+
+/* disappear slider carousel */
+#landingPage {
+	display:none !important;
+}
+
+/* disappear "Share" buttons */
+.linkMe {
+	display:none !important;
+	pointer-events:none !important;
+}
+
+/* disappear header
+#mainHeader {display:none !important;}
+*/
+
+/* disappear top navigation */
+.mainNav {
+	display:none !important;
+}
+
+/* disappear footer navigation */
+#mainFooter {
+	display:none !important;
+}
+
+/* disappear eCommerce paymentForm */
+#paymentForm {
+	display:none !important;
+	pointer-events:none !important;
+}
+div#paymentType div.input-group  div.radio:nth-child(3), div#paymentType div.input-group  div.radio:nth-child(4) {
+	display:none !important;
+	pointer-events:none !important;
+}
+
+/* disappear star ratings widgets */
+.ratingsControl {
+	display:none !important;
+}
+
+/* disappear patron digital stuff */
+.refreshDigitalInfoContainer {
+	display:none !important;
+}
+
+/* disappear "Place Hold" buttons */
+.request {
+	display:none !important;
+	pointer-events:none !important;
+}
